@@ -40,7 +40,7 @@
     [super viewDidLoad];
     
     self.title = @"JSQMessages";
-
+    
     self.inputToolbar.contentView.textView.jsqPasteDelegate = self;
     
     /**
